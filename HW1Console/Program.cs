@@ -90,7 +90,7 @@ class Program
     public static (double, double) ExchangeOfValuesOfTwoVariablesThroughTwoVariables(double a, double b)
     {
         (a, b) = (b, a);
-        return (a,b);
+        return (a, b);
     }
     
     //5a  Написать программу, которая выводит на экран ваше имя, фамилию и город проживания
