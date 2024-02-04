@@ -61,7 +61,7 @@ class Program
     //1в используя вывод со знаком $.
     public static string GetStringUsingInterpolation(string firstName, string lastname, string age, string height, string weight)
     {
-        return ($"firstName: {firstName}, lastName: {lastname}, age: {age}, height: {height}, weight: {weight}");
+        return $"firstName: {firstName}, lastName: {lastname}, age: {age}, height: {height}, weight: {weight}";
     }
     
     //2 Ввести вес и рост человека. Рассчитать и вывести индекс массы тела (ИМТ) по формуле I=m/(h*h); где m — масса тела в килограммах, h — рост в метрах.
@@ -96,7 +96,7 @@ class Program
     //5a  Написать программу, которая выводит на экран ваше имя, фамилию и город проживания
     public static string GetALine(string firstName, string lastname, string city)
     {
-        return ($"firstName: {firstName}, lastName: {lastname}, city: {city}");
+        return $"firstName: {firstName}, lastName: {lastname}, city: {city}";
     }
     
     //5 б,в б) *Сделать задание, только вывод организовать в центре экрана. в)**Сделатьзаданиебсиспользованиемсобственныхметодов(например,Print(stringms, int x,int y).
